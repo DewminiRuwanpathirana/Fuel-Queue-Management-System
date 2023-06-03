@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: gray;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sd2_cw.HelloController">
+   <children>
+      <Button layoutX="85.0" layoutY="556.0" mnemonicParsing="false" onAction="#viewWaitingList" text="view queues" textAlignment="CENTER" textFill="RED">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button layoutX="195.0" layoutY="556.0" mnemonicParsing="false" onAction="#onHelloButtonClick" text="Run" textAlignment="CENTER" textFill="RED">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Label fx:id="welcomeText" alignment="CENTER" layoutX="3.0" layoutY="7.0" prefHeight="546.0" prefWidth="322.0" text="Welocme to the GUI" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
